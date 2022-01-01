@@ -1,0 +1,213 @@
+body{
+  background-image: url(91.webp);
+  background-repeat: no-repeat;
+  background-size:cover;
+  margin: 0;
+}
+.borde {
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  height: 350px;
+  width: 350px;
+  padding: 30px;
+  color: rgb(229, 224, 140);
+  box-shadow: 1px 3px 8px 8px #eb7865;
+  background-color:rgb(78 56 36);
+}
+
+.borde .goin{
+  position: absolute;
+  border: 3px solid rgb(229, 224, 140);
+  text-align: center;
+  top: 15px;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  padding: 20px;
+  font-size: 20px;
+}
+.goin h2 {
+  font-size: 26px;
+  padding: 10px;
+}
+
+/*-------------------------------hover--------------------------------*/
+.borde::before {
+  content: " ";
+  position: absolute;
+  left: -30%;
+  top:0;
+  width: 270px;
+  height: 410px;
+  transition: 0.6s;
+}
+.borde:hover:before {
+  background: rgba(190, 190, 152, 0.171);
+  left: -5%;
+  transform: skewX(-5deg);
+
+}
+
+/*--------------------------borders------------------------------*/
+
+.borde span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.borde span::before {
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(229, 224, 140);
+  animation: movement 3s linear infinite;
+}
+@keyframes movement {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+  50% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+  50.1% {
+    transform: scaleX(1);
+    transform-origin: right;
+  }
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+}
+
+.borde span:nth-child(1) {
+  transform: rotate(0deg);
+}
+.borde span:nth-child(2) {
+  transform: rotate(90deg);
+}
+.borde span:nth-child(3) {
+  transform: rotate(180deg);
+}
+.borde span:nth-child(4) {
+  transform: rotate(270deg);
+}
+
+/*------------------- ايضا استطيع عمل الاطار المتحرك بهذه الطريقة ---------------------------------------------------------------------
+  
+.borde span::before{
+    content: " ";
+    position:absolute;
+    width: 500px;
+    height: 5px;
+    background-color:rgb(229, 224, 140) ;
+    animation:z1 3s linear infinite;
+   
+}
+@keyframes z1{
+    0%{
+        transform: scale(0);
+        transform-origin: left;
+    }50%{
+        transform: scale(1);
+        transform-origin: left;
+    }
+    50.1%{
+        transform: scale(1);
+        transform-origin:right;
+    }100%{
+    transform: scale(0);
+    transform-origin: right;
+}
+}
+
+.borde span::after{
+    content: " ";
+    position:absolute;
+    width: 5px;
+    height: 428px;
+    top:3px;
+    background-color: rgb(229, 224, 140);
+    animation:z2 3s linear infinite;
+   
+}
+
+@keyframes z2{
+    0%{
+        transform: scaley(0);
+        transform-origin: bottom;
+    }50%{
+        transform: scaley(1);
+        transform-origin: bottom;
+    }
+    50.1%{
+        transform: scaley(1);
+        transform-origin: top;
+    }100%{
+    transform: scaley(0);
+    transform-origin: top;
+}
+}
+
+.goin::before{
+    content: " ";
+    position:absolute;
+    width: 500px;
+    height: 5px;
+    top:426px;
+    left:2px;
+    background-color:rgb(229, 224, 140); 
+    animation:z3 3s linear infinite;
+   
+}
+@keyframes z3{
+    0%{
+        transform: scale(0);
+        transform-origin: right;
+    }50%{
+        transform: scale(1);
+        transform-origin: right;
+    }
+    50.1%{
+        transform: scale(1);
+        transform-origin: left;
+    }100%{
+    transform: scale(0);
+    transform-origin:left;
+}
+}
+.goin::after{
+    content: " ";
+    position:absolute;
+    width: 5px;
+    height: 428px;
+    top:3px;
+    left:500px;
+    background-color:rgb(229, 224, 140);
+    animation:z4 3s linear infinite;
+   
+}
+
+@keyframes z4{
+    0%{
+        transform: scaley(0);
+        transform-origin:top;
+    }50%{
+        transform: scaley(1);
+        transform-origin: top;
+    }
+    50.1%{
+        transform: scaley(1);
+        transform-origin: bottom;
+    }100%{
+    transform: scaley(0);
+    transform-origin: bottom;
+}
+}*/
