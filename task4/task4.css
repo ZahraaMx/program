@@ -1,0 +1,44 @@
+.zm{
+    background-image:url(99.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    padding: 20px;
+    margin: 20px;
+}
+.p1{
+    background-image:url(90s.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    color: rgb(240, 237, 243);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 20%;
+}
+.p2{
+    background-image:url(93.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    color: rgb(1, 1, 12);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 20%; 
+}
+.p3{
+    background-image:url(94\,jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+    color: rgb(241, 238, 232);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 20%;
+}
