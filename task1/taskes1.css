@@ -1,0 +1,39 @@
+/*Valid */
+._my-div{
+    color:palevioletred;
+    background-color: rgb(232, 231, 233);
+    }
+    
+    /*Valid */
+    .-my-div{
+        color: rgb(218, 142, 154);
+        background-color: rgb(223, 217, 217);
+    }
+    
+    /* Not Valid */
+    .12my.div{
+    }
+    
+    /* Not Valid */
+    .%my-div{
+    }
+    
+    /* Not Valid */
+    .@my.div{
+    }
+    
+    /* Not Valid */
+    .my@div{
+    }
+    
+    /*Valid */
+    ._my78div{
+        color:palevioletred;
+        background-color:rgb(232, 231, 233) ;
+    }
+    
+    /* Valid */
+    .div{
+        color:rgb(233, 152, 165);
+        background-color:rgb(223, 217, 217);
+    }
