@@ -1,0 +1,38 @@
+.p1{
+    float:left;
+    background-color: rgb(199, 176, 176);
+    border-right:dotted;
+    border-left: dashed;
+    border-width: 10px;
+    border-color: rgb(200, 160, 48);
+    color: rgb(77, 65, 65);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 20%; 
+}
+.p2{
+    float:left;
+    border:10px  solid rgb(218, 193, 54);
+    color: rgb(21, 19, 24);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 20%;
+}
+.p3{
+    float:left;
+    background-color: rgb(211, 182, 129);
+    border-top:dashed;
+    border-bottom:solid;
+    border-width: 10px;
+    border-color: rgb(233, 229, 31);
+    color: rgb(68, 46, 46);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 22%;
+    height: 20%;
+}
