@@ -1,0 +1,27 @@
+.p1{
+    color: rgb(4, 1, 8);
+    background-color: rgb(156, 79, 120);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 20%;
+}
+.p2{
+    color: rgb(238, 238, 240);
+    background-color: rgb(194, 121, 172);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 20%; 
+}
+.p3{
+    color: rgb(24, 16, 2);
+    background-color: rgb(121, 32, 112);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+    width: 20%;
+    height: 20%;
+}
