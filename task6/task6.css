@@ -1,0 +1,27 @@
+.p1{
+    background-color: rgb(241, 234, 234);
+    border-left:solid;
+    border-width: 10px;
+    border-color: rgb(211, 39, 39);
+    padding: 20px;
+    margin: 20px;
+}
+.p2{
+    border-width: 10px;
+    border-color: rgb(126, 124, 112) sienna;
+    border-style: solid double;
+    color: rgb(21, 19, 24);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+}
+.p3{
+    background-color: rgb(105, 96, 114);
+    border-top:dashed;
+    border-bottom:solid;
+    border-width: 10px;
+    border-color: rgb(233, 229, 31);
+    color: rgb(240, 232, 232);
+    padding: 20px;
+    margin: 20px;
+}
