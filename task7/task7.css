@@ -1,0 +1,30 @@
+.p1{
+    font-size:large;
+    background-color: rgb(241, 234, 234);
+    border-left:solid;
+    border-width: 10px;
+    border-color: rgb(94, 100, 12);
+    padding: 20px;
+    margin: 20px;
+}
+.p2{
+    font-size: x-large;
+    font-style: oblique;
+    border-width: 10px;
+    border-color: rgb(18, 218, 218) rgb(71, 69, 75);
+    border-style:groove solid;
+    color: rgb(21, 19, 24);
+    font-size: 17px;
+    padding: 20px;
+    margin: 20px;
+}
+.p3{
+    font-size: x-large;
+    border-style: ridge solid;
+    border-width: 20px;
+    border-color: thistle burlywood;
+    background-color: rgb(105, 96, 114);
+    color: rgb(240, 232, 232);
+    padding: 20px;
+    margin: 20px;
+}
